@@ -9,7 +9,7 @@ export default function Videocard({type}) {
     }
     return (
         <div className='videocard'>
-            <video src={sample_video} muted autoPlay></video>
+            <video id={type} src={type==='1'?sample_video:''} muted autoPlay></video>
             {type==='1' 
             ? mute
                 ?<i onClick={()=>toggleMute()} className="videocard_icon fas fa-microphone-alt-slash"></i>
