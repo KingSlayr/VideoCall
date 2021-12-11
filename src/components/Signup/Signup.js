@@ -1,9 +1,11 @@
 import React from 'react'
 import './Signup.css'
+import bird from '../../assets/bird.svg'
 
 export default function Signup({setroute}) {
     return (
         <div className='signup'>
+            <img src={bird} alt="" />
             <div className='signup_form'>                
                 <div className='signup_title'>
                     Enter Here !

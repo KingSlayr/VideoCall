@@ -4,6 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.signup>img{
+    height: 20%;
+    margin-bottom: 5vh;
 }
 
 .signup_form{

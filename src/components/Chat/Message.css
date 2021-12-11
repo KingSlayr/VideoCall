@@ -1,0 +1,9 @@
+.message{
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.4em;
+    width: fit-content;
+    word-break: break-word;
+    margin: 0.2em 0.2em;
+    max-width: 60%;
+}

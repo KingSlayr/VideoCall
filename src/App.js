@@ -9,7 +9,7 @@ function App() {
   const routing = (key) => {
     switch (key) {
       case 'home':
-        return <Home/>
+        return <Home setroute={setroute}/>
       case 'signup':
         return <Signup setroute={setroute}/>
       default:
