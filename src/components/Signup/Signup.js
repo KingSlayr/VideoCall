@@ -2,7 +2,7 @@ import React from 'react'
 import './Signup.css'
 import bird from '../../assets/bird.svg'
 
-export default function Signup({setroute}) {
+export default function Signup({setmyName,setroute}) {
     return (
         <div className='signup'>
             <img src={bird} alt="" />
@@ -12,7 +12,7 @@ export default function Signup({setroute}) {
                 </div>
                 <div className='signup_input'>
                     <span>Nickname</span>
-                    <span><input type="text" name='name'/></span>
+                    <span><input type="text" name='name' onInput={(e)=>setmyName(e.target.value)}/></span>
                 </div>
                 <div>
                     <button onClick={()=>setroute('home')}>Enter</button>

@@ -12,6 +12,7 @@
     border: 1px solid rgba(0, 0, 0, 0.397);
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 2px;
+    position: relative;
 }
 
 .home_cam1,.home_cam2{
@@ -39,6 +40,19 @@
     box-shadow: rgba(0, 0, 0, 0.274) 2px 2px 2px;
     padding: 0.2em 0.4em;
     border-radius: 5px;
+}
+
+.home_endButton{
+    position: absolute;
+    top: 0.6em;
+    right: 0.6em;
+    z-index: 10;
+    padding: 0.25em 1.5em;
+    background: #ee2121;
+    color: white;
+    border: 1px solid #0000006b;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
 @media only screen and (max-width: 600px) {

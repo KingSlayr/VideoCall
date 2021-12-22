@@ -1,21 +1,14 @@
 import React, { useState } from 'react'
 import './Videocard.css'
-import sample_video from '../../assets/sample_video.mp4'
+import sample_video from '../../assets/loader2.mp4'
 
-export default function Videocard({type}) {
-    const [mute, setmute] = useState(false)
-    const toggleMute = () => {
-        setmute(!mute)
-    }
+export default function Videocard({name,videoRef,type}) {
+
+    // console.log(videoRef);
     return (
         <div className='videocard'>
-            <video id={type} src={type==='1'?sample_video:''} muted autoPlay></video>
-            {type==='1' 
-            ? mute
-                ?<i onClick={()=>toggleMute()} className="videocard_icon fas fa-microphone-alt-slash"></i>
-                :<i onClick={()=>toggleMute()} className="videocard_icon fas fa-microphone-alt"></i> 
-            :''
-            }
+            <div className='videocard_name'>{name}</div>
+            <video loop src={sample_video} ref={videoRef} autoPlay id={type}></video>
         </div>
     )
 }

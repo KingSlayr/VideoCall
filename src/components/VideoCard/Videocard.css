@@ -7,6 +7,9 @@
 .videocard>video{
     height: 100%;
     max-width: 100%;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
 }
 
 .videocard_icon{
@@ -15,3 +18,17 @@
     right: 5px;
     z-index: 20;
 }
+
+.videocard_name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .videocard_name{
+        font-size: 0.5em;
+    }
+  }
