@@ -3,10 +3,10 @@ This is an online video calling platform with text messages also available, in w
 
 
 ## Tech Stack
-For Frontend - React.js
-For Backend - Node, Express
-For Signaling - Socket.io
-For Video Communication - Webrtc, Simple Peer
+#### For Frontend - React.js
+#### For Backend - Node, Express
+#### For Signaling - Socket.io
+#### For Video Communication - Webrtc, Simple Peer
 
 ## Design
 I have tried to make the design simple and responsive.
