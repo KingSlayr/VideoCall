@@ -15,12 +15,11 @@ I have tried to make the design simple and responsive.
 ![Register1](https://user-images.githubusercontent.com/55028717/147203077-cdfa6f63-88c1-4fac-a936-51e27a076703.JPG)
 
 ### Main Page - 
-![Main1](https://user-images.githubusercontent.com/55028717/147203092-5fb4ef87-d7e7-43e8-a969-683f67613042.JPG)
+![Main1](https://user-images.githubusercontent.com/55028717/150480875-5f90db86-62d8-4417-b7b2-d2d00f5b0f14.JPG)
 
 
 #### Mobile View -
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/55028717/147203112-403fcd1e-0861-4870-a71c-c9253fa86ec4.JPG" height=600/>
+  <img src="https://user-images.githubusercontent.com/55028717/150480901-82a25460-3ae9-4285-ba34-5b0e9178ac88.JPG" height=600/>
 </p>
-
