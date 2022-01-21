@@ -8,6 +8,8 @@ This is an online video calling platform with text messages also available, in w
 #### For Signaling - Socket.io
 #### For Video Communication - Webrtc, Simple Peer
 
+##### Backend - https://github.com/KingSlayr/VideoCall-Backend
+
 ## Design
 I have tried to make the design simple and responsive.
 
