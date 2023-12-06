@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/VideoCall/static/css/main.4b8c76d7.chunk.css",
+    "main.js": "/VideoCall/static/js/main.a4361f9d.chunk.js",
+    "main.js.map": "/VideoCall/static/js/main.a4361f9d.chunk.js.map",
+    "runtime-main.js": "/VideoCall/static/js/runtime-main.913108ec.js",
+    "runtime-main.js.map": "/VideoCall/static/js/runtime-main.913108ec.js.map",
+    "static/js/2.3350b997.chunk.js": "/VideoCall/static/js/2.3350b997.chunk.js",
+    "static/js/2.3350b997.chunk.js.map": "/VideoCall/static/js/2.3350b997.chunk.js.map",
+    "static/js/3.92614c3c.chunk.js": "/VideoCall/static/js/3.92614c3c.chunk.js",
+    "static/js/3.92614c3c.chunk.js.map": "/VideoCall/static/js/3.92614c3c.chunk.js.map",
+    "index.html": "/VideoCall/index.html",
+    "static/css/main.4b8c76d7.chunk.css.map": "/VideoCall/static/css/main.4b8c76d7.chunk.css.map",
+    "static/js/2.3350b997.chunk.js.LICENSE.txt": "/VideoCall/static/js/2.3350b997.chunk.js.LICENSE.txt",
+    "static/media/bird.79bc219c.svg": "/VideoCall/static/media/bird.79bc219c.svg",
+    "static/media/loader2.ee4b8d62.mp4": "/VideoCall/static/media/loader2.ee4b8d62.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.913108ec.js",
+    "static/js/2.3350b997.chunk.js",
+    "static/css/main.4b8c76d7.chunk.css",
+    "static/js/main.a4361f9d.chunk.js"
+  ]
+}
