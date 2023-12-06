@@ -5,7 +5,7 @@ import './Home.css'
 
 import io from "socket.io-client"
 import Peer from "simple-peer"
-const socket = io.connect('https://connect-me-backend.herokuapp.com/')
+const socket = io.connect('https://videocall-backend-vpv5.onrender.com')
 
 export default function Home({myName,setroute}) {
     const [stream, setstream] = useState()
